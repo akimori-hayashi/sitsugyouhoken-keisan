@@ -86,6 +86,9 @@ export default function CalculatorForm({ onCalculate, initialValues }: Props) {
         <p className="mt-1 text-xs text-gray-500">
           直近6ヶ月の賃金総額 ÷ 180 で算出します
         </p>
+        <p className="mt-1 text-xs text-gray-500">
+          ※対象となる「賃金」： 基本給、残業代、通勤手当、住宅手当、役職手当などの「額面給与」です。
+        </p>
       </div>
 
       {/* 年齢区分 */}
